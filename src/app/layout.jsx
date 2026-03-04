@@ -26,11 +26,11 @@ export default function RootLayout({ children }) {
       <body
         className={`${poppins.className} ${libreBaskerville.variable} antialiased`}
       >
-        <header className="py-2 md:w-8/12 mx-auto">
+        <header className="">
           <Navbar className="font-libre"></Navbar>
         </header>
 
-        <main>{children}</main>
+        <main className="min-h-[calc(100vh-302px)] pt-22 ">{children}</main>
 
         <footer>
           <Footer></Footer>
