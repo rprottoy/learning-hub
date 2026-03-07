@@ -4,7 +4,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-[#142537] text-white mt-30">
+    <div className="bg-[#142537] text-white md:mt-30 mt-15">
       <div className="md:max-w-9/12 max-w-11/12 mx-auto pt-15 py-5">
         <div className="md:flex  justify-between">
           {/* logo */}
@@ -31,7 +31,7 @@ const Footer = () => {
                 />
               </div>
               <div>
-                <button className=" bg-primary  px-7 py-2.5 rounded-[5px] text-white">
+                <button className=" bg-primary px-7 py-2.5 rounded-[5px] text-white font-semibold transition hover:bg-opacity-90">
                   Subscribe
                 </button>
               </div>

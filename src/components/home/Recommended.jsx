@@ -1,8 +1,12 @@
+import { getCourses } from "@/app/lib/actions/courses.actions";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
 const Recommended = () => {
+  const page = async () => {
+    const courses = await getCourses();
+  };
   return (
     <div className="md:max-w-11/12 max-w-11/12 mx-auto">
       <div>
@@ -15,8 +19,8 @@ const Recommended = () => {
           Recommended for you
         </h4>
         <div>
-          <Link href={"/view-all-courses"}>
-            <button className=" bg-primary px-7 py-2.5 rounded-[5px] text-white">
+          <Link href={"/courses"}>
+            <button className=" bg-primary px-7 py-2.5 rounded-[5px] text-white font-semibold transition hover:bg-opacity-90">
               View All
             </button>
           </Link>

@@ -11,16 +11,16 @@ const Navbar = () => {
         <NavLink href={"/"}>Home</NavLink>
       </li>
       <li className="list-none">
-        <NavLink href={"/"}>Courses</NavLink>
+        <NavLink href={"/courses"}>Courses</NavLink>
       </li>
       <li className="list-none">
-        <NavLink href={"/"}>Events</NavLink>
+        <NavLink href={"/events"}>Events</NavLink>
       </li>
       <li className="list-none">
-        <NavLink href={"/"}>Instructors</NavLink>
+        <NavLink href={"/instructors"}>Instructors</NavLink>
       </li>
       <li className="list-none">
-        <NavLink href={"/"}>Blogs</NavLink>
+        <NavLink href={"/blogs"}>Blogs</NavLink>
       </li>
     </>
   );
@@ -107,7 +107,7 @@ const Navbar = () => {
               {/* Button */}
               <div>
                 <Link href={"/login"}>
-                  <button className=" bg-primary hidden md:inline-block px-7 py-2.5 rounded-[5px] text-white">
+                  <button className=" bg-primary px-7 py-2.5 rounded-[5px] text-white font-semibold transition hover:bg-opacity-90">
                     Login
                   </button>
                 </Link>

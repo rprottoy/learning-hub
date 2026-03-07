@@ -25,7 +25,7 @@ const Banner = () => {
               placeholder="Search"
               className="bg-white text-black rounded-[5px] py-2 pl-10 pr-20"
             />
-            <button className="bg-primary text-white rounded-[5px] px-7 py-2 -ml-13.75">
+            <button className="bg-primary text-white rounded-[5px] px-7 py-2 -ml-20">
               <Image
                 alt=""
                 src={"/assets/icons/search.svg"}
